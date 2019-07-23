@@ -4,7 +4,11 @@
 // Requires pipeline-github-lib plugin to load library from github
 @Library('github.com/TmmmmmR/SecLib@master')
 
-owaspzap{
-    project_name          = "test"
-}
+pipeline {
 
+        stage('Debugging stage') {
+            sh 'whoami'
+            sh 'hostname -i'
+        }
+
+}
