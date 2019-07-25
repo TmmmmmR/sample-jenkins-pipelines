@@ -6,5 +6,6 @@
 
 owaspzap{
     engagement_id      = "cicd"
+    target_url         = "https://example.com"
 }
 
