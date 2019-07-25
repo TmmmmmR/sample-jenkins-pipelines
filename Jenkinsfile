@@ -5,6 +5,7 @@
 @Library('github.com/TmmmmmR/SecLib@master') _
 
 owaspzap{
-    project_name          = "test"
+    engagement_id      = "cicd",
+    taget_url          = "http://example.com"
 }
 
