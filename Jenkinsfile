@@ -6,6 +6,5 @@
 
 owaspzap{
     engagement_id      = "cicd"
-    taget_url          = "http://example.com"
 }
 
