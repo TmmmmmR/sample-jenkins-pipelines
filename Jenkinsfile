@@ -5,7 +5,7 @@
 @Library('github.com/TmmmmmR/SecLib@master') _
 
 owaspzap{
-    engagement_id      = "cicd",
+    engagement_id      = "cicd"
     taget_url          = "http://example.com"
 }
 
